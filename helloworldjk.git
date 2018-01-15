@@ -1,0 +1,697 @@
+Last login: Mon Jan 15 08:25:57 on console
+Jayants-MacBook-Pro:~ jayantkapse$ pwd
+/Users/jayantkapse
+Jayants-MacBook-Pro:~ jayantkapse$ 
+Jayants-MacBook-Pro:~ jayantkapse$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jayants-MacBook-Pro:~ jayantkapse$ 
+Jayants-MacBook-Pro:~ jayantkapse$ 
+Jayants-MacBook-Pro:~ jayantkapse$ ls
+Applications		Library			Public			dlgmanager.config
+Desktop			Movies			VirtualBox VMs
+Documents		Music			dlclient.history
+Downloads		Pictures		dlclient.localstate
+Jayants-MacBook-Pro:~ jayantkapse$ cd Documents/
+Jayants-MacBook-Pro:Documents jayantkapse$ ls
+11november2017.pdf
+5._herbert_schildt_c_programming_cookbook.pdf
+Aptana Rubles
+Aptana Studio 3 Workspace
+BCCA IN -  Eligibility Application (1).pdf
+BCCA IN -  Eligibility Application.pdf
+C# 3.0 - The Complete Reference - Herbert Schildt.pdf
+C_BOBIP_41-demo.pdf
+C_BOBIP_41.pdf
+Canada CIC
+Certification BI 42
+DEVOPS
+DEvops Training.pages
+Ex_Files_UaR_Python
+HADOOP Videos
+HDP bk_command-line-installation.pdf
+HSBC CardNet.pdf
+Hadoop Cluster.pages
+Hadoop Documentation
+JavaTheCompleteReference.pdf
+Jayant_Kapse_Business_Objects_Administrator_SITEL.docx
+Jayant_Kapse_Business_Objects_Administrator_SITEL.pages
+Jayant_Kapse_Business_Objects_Administrator_SITEL11 (1).pages
+Learning
+Lic statement.pdf
+Linux-command-refference.pdf
+Media
+Microsoft Word - BCCA IN Eligibility Application - Draft Aug 25 for PDF.pdf
+Monitoring in BI 4.key
+Movies
+PERSONAL
+Python Essential Reference (3rd Edition) (1).pdf
+Python Essential Reference (3rd Edition).pdf
+Receipt _ LinkedIn_Premium.pdf
+Reset profile pwd.pdf
+Softwares
+Untitled.pages
+Virtual Machines.localized
+WebEx
+c++.pdf
+cloudera-administration.pdf
+complete-reference-vbnet.pdf
+htmlandcss-thecompletereference5thed-t.powellmcgraw-hill2010bbs_nxpowerlite.pdf
+letter vfs cvac.rtfd
+lic policy details.pdf
+list of cities and towns in Canada -- Britannica Online Encyclopedia.pdf
+sbo42sp4_webi_user_guide_en.pdf
+sql-the-complete-reference-third-edition-sep-2009.pdf
+transfer request.rtfd
+untitled folder
+Jayants-MacBook-Pro:Documents jayantkapse$ ls
+11november2017.pdf
+5._herbert_schildt_c_programming_cookbook.pdf
+Aptana Rubles
+Aptana Studio 3 Workspace
+BCCA IN -  Eligibility Application (1).pdf
+BCCA IN -  Eligibility Application.pdf
+C# 3.0 - The Complete Reference - Herbert Schildt.pdf
+C_BOBIP_41-demo.pdf
+C_BOBIP_41.pdf
+Canada CIC
+Certification BI 42
+DEVOPS
+DEvops Training.pages
+Ex_Files_UaR_Python
+HADOOP Videos
+HDP bk_command-line-installation.pdf
+HSBC CardNet.pdf
+Hadoop Cluster.pages
+Hadoop Documentation
+JavaTheCompleteReference.pdf
+Jayant_Kapse_Business_Objects_Administrator_SITEL.docx
+Jayant_Kapse_Business_Objects_Administrator_SITEL.pages
+Jayant_Kapse_Business_Objects_Administrator_SITEL11 (1).pages
+Learning
+Lic statement.pdf
+Linux-command-refference.pdf
+Media
+Microsoft Word - BCCA IN Eligibility Application - Draft Aug 25 for PDF.pdf
+Monitoring in BI 4.key
+Movies
+PERSONAL
+Python Essential Reference (3rd Edition) (1).pdf
+Python Essential Reference (3rd Edition).pdf
+Receipt _ LinkedIn_Premium.pdf
+Reset profile pwd.pdf
+Softwares
+Untitled.pages
+Virtual Machines.localized
+WebEx
+c++.pdf
+cloudera-administration.pdf
+complete-reference-vbnet.pdf
+htmlandcss-thecompletereference5thed-t.powellmcgraw-hill2010bbs_nxpowerlite.pdf
+letter vfs cvac.rtfd
+lic policy details.pdf
+list of cities and towns in Canada -- Britannica Online Encyclopedia.pdf
+sbo42sp4_webi_user_guide_en.pdf
+sql-the-complete-reference-third-edition-sep-2009.pdf
+transfer request.rtfd
+untitled folder
+Jayants-MacBook-Pro:Documents jayantkapse$ cd DEVOPS/
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ ls
+Vagrantfile					ubuntu
+centos						ubuntu-xenial-16.04-cloudimg-console.log
+multiplevms
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ cd multiplevms/
+Jayants-MacBook-Pro:multiplevms jayantkapse$ vagrant up
+Bringing machine 'cwork' up with 'virtualbox' provider...
+Bringing machine 'cserver' up with 'virtualbox' provider...
+Bringing machine 'node1' up with 'virtualbox' provider...
+==> cwork: Box 'ubuntu/trusty64' could not be found. Attempting to find and install...
+    cwork: Box Provider: virtualbox
+    cwork: Box Version: >= 0
+==> cwork: Loading metadata for box 'ubuntu/trusty64'
+    cwork: URL: https://vagrantcloud.com/ubuntu/trusty64
+==> cwork: Adding box 'ubuntu/trusty64' (v20180107.0.0) for provider: virtualbox
+    cwork: Downloading: https://vagrantcloud.com/ubuntu/boxes/trusty64/versions/20180107.0.0/providers/virtualbox.box
+==> cwork: Successfully added box 'ubuntu/trusty64' (v20180107.0.0) for 'virtualbox'!
+==> cwork: Importing base box 'ubuntu/trusty64'...
+==> cwork: Matching MAC address for NAT networking...
+==> cwork: Checking if box 'ubuntu/trusty64' is up to date...
+==> cwork: Setting the name of the VM: multiplevms_cwork_1515985739642_3431
+==> cwork: Clearing any previously set forwarded ports...
+==> cwork: Clearing any previously set network interfaces...
+==> cwork: Preparing network interfaces based on configuration...
+    cwork: Adapter 1: nat
+    cwork: Adapter 2: hostonly
+==> cwork: Forwarding ports...
+    cwork: 22 (guest) => 2222 (host) (adapter 1)
+==> cwork: Running 'pre-boot' VM customizations...
+==> cwork: Booting VM...
+==> cwork: Waiting for machine to boot. This may take a few minutes...
+    cwork: SSH address: 127.0.0.1:2222
+    cwork: SSH username: vagrant
+    cwork: SSH auth method: private key
+    cwork: 
+    cwork: Vagrant insecure key detected. Vagrant will automatically replace
+    cwork: this with a newly generated keypair for better security.
+    cwork: 
+    cwork: Inserting generated public key within guest...
+    cwork: Removing insecure key from the guest if it's present...
+    cwork: Key inserted! Disconnecting and reconnecting using new SSH key...
+==> cwork: Machine booted and ready!
+==> cwork: Checking for guest additions in VM...
+    cwork: The guest additions on this VM do not match the installed version of
+    cwork: VirtualBox! In most cases this is fine, but in rare cases it can
+    cwork: prevent things such as shared folders from working properly. If you see
+    cwork: shared folder errors, please make sure the guest additions within the
+    cwork: virtual machine match the version of VirtualBox you have installed on
+    cwork: your host and reload your VM.
+    cwork: 
+    cwork: Guest Additions Version: 4.3.36
+    cwork: VirtualBox Version: 5.1
+==> cwork: Setting hostname...
+==> cwork: Configuring and enabling network interfaces...
+==> cwork: Mounting shared folders...
+    cwork: /vagrant => /Users/jayantkapse/Documents/DEVOPS/multiplevms
+==> cserver: Box 'ubuntu/trusty64' could not be found. Attempting to find and install...
+    cserver: Box Provider: virtualbox
+    cserver: Box Version: >= 0
+==> cserver: Loading metadata for box 'ubuntu/trusty64'
+    cserver: URL: https://vagrantcloud.com/ubuntu/trusty64
+==> cserver: Adding box 'ubuntu/trusty64' (v20180107.0.0) for provider: virtualbox
+==> cserver: Importing base box 'ubuntu/trusty64'...
+==> cserver: Matching MAC address for NAT networking...
+==> cserver: Checking if box 'ubuntu/trusty64' is up to date...
+==> cserver: Setting the name of the VM: multiplevms_cserver_1515985801162_76310
+==> cserver: Clearing any previously set forwarded ports...
+==> cserver: Fixed port collision for 22 => 2222. Now on port 2200.
+==> cserver: Clearing any previously set network interfaces...
+==> cserver: Preparing network interfaces based on configuration...
+    cserver: Adapter 1: nat
+    cserver: Adapter 2: hostonly
+==> cserver: Forwarding ports...
+    cserver: 22 (guest) => 2200 (host) (adapter 1)
+==> cserver: Running 'pre-boot' VM customizations...
+==> cserver: Booting VM...
+==> cserver: Waiting for machine to boot. This may take a few minutes...
+    cserver: SSH address: 127.0.0.1:2200
+    cserver: SSH username: vagrant
+    cserver: SSH auth method: private key
+    cserver: 
+    cserver: Vagrant insecure key detected. Vagrant will automatically replace
+    cserver: this with a newly generated keypair for better security.
+    cserver: 
+    cserver: Inserting generated public key within guest...
+    cserver: Removing insecure key from the guest if it's present...
+    cserver: Key inserted! Disconnecting and reconnecting using new SSH key...
+==> cserver: Machine booted and ready!
+==> cserver: Checking for guest additions in VM...
+    cserver: The guest additions on this VM do not match the installed version of
+    cserver: VirtualBox! In most cases this is fine, but in rare cases it can
+    cserver: prevent things such as shared folders from working properly. If you see
+    cserver: shared folder errors, please make sure the guest additions within the
+    cserver: virtual machine match the version of VirtualBox you have installed on
+    cserver: your host and reload your VM.
+    cserver: 
+    cserver: Guest Additions Version: 4.3.36
+    cserver: VirtualBox Version: 5.1
+==> cserver: Setting hostname...
+==> cserver: Configuring and enabling network interfaces...
+==> cserver: Mounting shared folders...
+    cserver: /vagrant => /Users/jayantkapse/Documents/DEVOPS/multiplevms
+==> node1: Box 'ubuntu/trusty64' could not be found. Attempting to find and install...
+    node1: Box Provider: virtualbox
+    node1: Box Version: >= 0
+==> node1: Loading metadata for box 'ubuntu/trusty64'
+    node1: URL: https://vagrantcloud.com/ubuntu/trusty64
+==> node1: Adding box 'ubuntu/trusty64' (v20180107.0.0) for provider: virtualbox
+==> node1: Importing base box 'ubuntu/trusty64'...
+==> node1: Matching MAC address for NAT networking...
+==> node1: Checking if box 'ubuntu/trusty64' is up to date...
+==> node1: Setting the name of the VM: multiplevms_node1_1515985861105_99329
+==> node1: Clearing any previously set forwarded ports...
+==> node1: Fixed port collision for 22 => 2222. Now on port 2201.
+==> node1: Clearing any previously set network interfaces...
+==> node1: Preparing network interfaces based on configuration...
+    node1: Adapter 1: nat
+    node1: Adapter 2: hostonly
+==> node1: Forwarding ports...
+    node1: 22 (guest) => 2201 (host) (adapter 1)
+==> node1: Running 'pre-boot' VM customizations...
+==> node1: Booting VM...
+==> node1: Waiting for machine to boot. This may take a few minutes...
+    node1: SSH address: 127.0.0.1:2201
+    node1: SSH username: vagrant
+    node1: SSH auth method: private key
+    node1: 
+    node1: Vagrant insecure key detected. Vagrant will automatically replace
+    node1: this with a newly generated keypair for better security.
+    node1: 
+    node1: Inserting generated public key within guest...
+    node1: Removing insecure key from the guest if it's present...
+    node1: Key inserted! Disconnecting and reconnecting using new SSH key...
+==> node1: Machine booted and ready!
+==> node1: Checking for guest additions in VM...
+    node1: The guest additions on this VM do not match the installed version of
+    node1: VirtualBox! In most cases this is fine, but in rare cases it can
+    node1: prevent things such as shared folders from working properly. If you see
+    node1: shared folder errors, please make sure the guest additions within the
+    node1: virtual machine match the version of VirtualBox you have installed on
+    node1: your host and reload your VM.
+    node1: 
+    node1: Guest Additions Version: 4.3.36
+    node1: VirtualBox Version: 5.1
+==> node1: Setting hostname...
+==> node1: Configuring and enabling network interfaces...
+==> node1: Mounting shared folders...
+    node1: /vagrant => /Users/jayantkapse/Documents/DEVOPS/multiplevms
+Jayants-MacBook-Pro:multiplevms jayantkapse$ pwd
+/Users/jayantkapse/Documents/DEVOPS/multiplevms
+Jayants-MacBook-Pro:multiplevms jayantkapse$ cd ..
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ ls
+Vagrantfile					ubuntu
+centos						ubuntu-xenial-16.04-cloudimg-console.log
+multiplevms
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ cd ubuntu
+Jayants-MacBook-Pro:ubuntu jayantkapse$ ls
+Vagrantfile					ubuntu-xenial-16.04-cloudimg-console.log
+Jayants-MacBook-Pro:ubuntu jayantkapse$ cd ..
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ ls
+Vagrantfile					ubuntu
+centos						ubuntu-xenial-16.04-cloudimg-console.log
+multiplevms
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ cd ubuntu
+Jayants-MacBook-Pro:ubuntu jayantkapse$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/xenial64' is up to date...
+==> default: A newer version of the box 'ubuntu/xenial64' is available! You currently
+==> default: have version '20180109.0.0'. The latest is version '20180112.0.0'. Run
+==> default: `vagrant box update` to update.
+==> default: Clearing any previously set forwarded ports...
+==> default: Fixed port collision for 22 => 2222. Now on port 2202.
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+    default: Adapter 2: hostonly
+==> default: Forwarding ports...
+    default: 22 (guest) => 2202 (host) (adapter 1)
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2202
+    default: SSH username: ubuntu
+    default: SSH auth method: password
+
+    default: Warning: Connection reset. Retrying...
+    default: Warning: Remote connection disconnect. Retrying...
+    default: Warning: Connection reset. Retrying...
+    default: Warning: Remote connection disconnect. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default: 
+    default: Guest Additions Version: 5.0.40
+    default: VirtualBox Version: 5.1
+==> default: Setting hostname...
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+    default: /vagrant => /Users/jayantkapse/Documents/DEVOPS/ubuntu
+    default: /vagrant_data => /Users/jayantkapse/Documents/DEVOPS/ubuntu
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+Jayants-MacBook-Pro:ubuntu jayantkapse$ 
+Jayants-MacBook-Pro:ubuntu jayantkapse$ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+Jayants-MacBook-Pro:ubuntu jayantkapse$ pwd
+/Users/jayantkapse/Documents/DEVOPS/ubuntu
+Jayants-MacBook-Pro:ubuntu jayantkapse$ cd ..
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ ls
+Vagrantfile					ubuntu
+centos						ubuntu-xenial-16.04-cloudimg-console.log
+multiplevms
+Jayants-MacBook-Pro:DEVOPS jayantkapse$ cd ubuntu
+Jayants-MacBook-Pro:ubuntu jayantkapse$ vagrant ssh
+Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+7 packages can be updated.
+7 updates are security updates.
+
+
+Last login: Thu Jan 11 04:55:03 2018 from 10.0.2.2
+ubuntu@hostname:~$ 
+ubuntu@hostname:~$ 
+ubuntu@hostname:~$ git init
+Initialized empty Git repository in /home/ubuntu/.git/
+ubuntu@hostname:~$ ls
+project
+ubuntu@hostname:~$ cd project/
+ubuntu@hostname:~/project$ ls
+Jenkinsfile  README.md  pom.xml  sample  src  target
+ubuntu@hostname:~/project$ ls -lrta
+total 52
+drwxr-xr-x 4 root   root   4096 Jan 11 05:27 target
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 src
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 sample
+-rw-r--r-- 1 root   root    719 Jan 11 05:27 pom.xml
+-rw-r--r-- 1 root   root     25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root   root    430 Jan 11 05:27 Jenkinsfile
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 .svn
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 .settings
+-rw-r--r-- 1 root   root    541 Jan 11 05:27 .project
+-rw-r--r-- 1 root   root   1193 Jan 11 05:27 .classpath
+drwxr-xr-x 8 root   root   4096 Jan 11 05:27 .
+drwxr-xr-x 8 root   root   4096 Jan 11 05:28 .git
+drwxr-xr-x 6 ubuntu ubuntu 4096 Jan 15 03:39 ..
+ubuntu@hostname:~/project$ pwd
+/home/ubuntu/project
+ubuntu@hostname:~/project$ cd .git/
+ubuntu@hostname:~/project/.git$ ls
+FETCH_HEAD  HEAD  branches  config  description  hooks  index  info  logs  objects  refs
+ubuntu@hostname:~/project/.git$  ls -lrta
+total 56
+drwxr-xr-x 4 root root 4096 Jan 11 05:05 refs
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 info
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 hooks
+-rw-r--r-- 1 root root   73 Jan 11 05:05 description
+-rw-r--r-- 1 root root   92 Jan 11 05:05 config
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 branches
+-rw-r--r-- 1 root root   23 Jan 11 05:05 HEAD
+drwxr-xr-x 4 root root 4096 Jan 11 05:05 objects
+-rw-r--r-- 1 root root   84 Jan 11 05:27 FETCH_HEAD
+drwxr-xr-x 3 root root 4096 Jan 11 05:27 logs
+drwxr-xr-x 8 root root 4096 Jan 11 05:27 ..
+-rw-r--r-- 1 root root 4528 Jan 11 05:28 index
+drwxr-xr-x 8 root root 4096 Jan 11 05:28 .
+ubuntu@hostname:~/project/.git$ 
+ubuntu@hostname:~/project/.git$ 
+ubuntu@hostname:~/project/.git$ 
+ubuntu@hostname:~/project/.git$ pwd
+/home/ubuntu/project/.git
+ubuntu@hostname:~/project/.git$ id
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),110(lxd)
+ubuntu@hostname:~/project/.git$ cd ..
+ubuntu@hostname:~/project$ pwd
+/home/ubuntu/project
+ubuntu@hostname:~/project$ ls -lrt
+total 24
+drwxr-xr-x 4 root root 4096 Jan 11 05:27 target
+drwxr-xr-x 3 root root 4096 Jan 11 05:27 src
+drwxr-xr-x 2 root root 4096 Jan 11 05:27 sample
+-rw-r--r-- 1 root root  719 Jan 11 05:27 pom.xml
+-rw-r--r-- 1 root root   25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root root  430 Jan 11 05:27 Jenkinsfile
+ubuntu@hostname:~/project$ ls -lrta
+total 52
+drwxr-xr-x 4 root   root   4096 Jan 11 05:27 target
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 src
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 sample
+-rw-r--r-- 1 root   root    719 Jan 11 05:27 pom.xml
+-rw-r--r-- 1 root   root     25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root   root    430 Jan 11 05:27 Jenkinsfile
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 .svn
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 .settings
+-rw-r--r-- 1 root   root    541 Jan 11 05:27 .project
+-rw-r--r-- 1 root   root   1193 Jan 11 05:27 .classpath
+drwxr-xr-x 8 root   root   4096 Jan 11 05:27 .
+drwxr-xr-x 8 root   root   4096 Jan 11 05:28 .git
+drwxr-xr-x 6 ubuntu ubuntu 4096 Jan 15 03:39 ..
+ubuntu@hostname:~/project$ pwd
+/home/ubuntu/project
+ubuntu@hostname:~/project$ 
+ubuntu@hostname:~/project$ 
+ubuntu@hostname:~/project$ ls -lrta
+total 52
+drwxr-xr-x 4 root   root   4096 Jan 11 05:27 target
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 src
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 sample
+-rw-r--r-- 1 root   root    719 Jan 11 05:27 pom.xml
+-rw-r--r-- 1 root   root     25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root   root    430 Jan 11 05:27 Jenkinsfile
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 .svn
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 .settings
+-rw-r--r-- 1 root   root    541 Jan 11 05:27 .project
+-rw-r--r-- 1 root   root   1193 Jan 11 05:27 .classpath
+drwxr-xr-x 8 root   root   4096 Jan 11 05:27 .
+drwxr-xr-x 8 root   root   4096 Jan 11 05:28 .git
+drwxr-xr-x 6 ubuntu ubuntu 4096 Jan 15 03:39 ..
+ubuntu@hostname:~/project$ cd .git/
+ubuntu@hostname:~/project/.git$ ls -lrta
+total 56
+drwxr-xr-x 4 root root 4096 Jan 11 05:05 refs
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 info
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 hooks
+-rw-r--r-- 1 root root   73 Jan 11 05:05 description
+-rw-r--r-- 1 root root   92 Jan 11 05:05 config
+drwxr-xr-x 2 root root 4096 Jan 11 05:05 branches
+-rw-r--r-- 1 root root   23 Jan 11 05:05 HEAD
+drwxr-xr-x 4 root root 4096 Jan 11 05:05 objects
+-rw-r--r-- 1 root root   84 Jan 11 05:27 FETCH_HEAD
+drwxr-xr-x 3 root root 4096 Jan 11 05:27 logs
+drwxr-xr-x 8 root root 4096 Jan 11 05:27 ..
+-rw-r--r-- 1 root root 4528 Jan 11 05:28 index
+drwxr-xr-x 8 root root 4096 Jan 11 05:28 .
+ubuntu@hostname:~/project/.git$ cd ..
+ubuntu@hostname:~/project$ git status
+On branch master
+nothing to commit, working directory clean
+ubuntu@hostname:~/project$ git pull https://github.com/ganeshhp/helloworldweb.git
+error: cannot open .git/FETCH_HEAD: Permission denied
+
+ubuntu@hostname:~/project$ git pull https://github.com/ganeshhp/helloworldweb.git
+error: cannot open .git/FETCH_HEAD: Permission denied
+
+ubuntu@hostname:~/project$ ls -la
+total 52
+drwxr-xr-x 8 root   root   4096 Jan 11 05:27 .
+drwxr-xr-x 6 ubuntu ubuntu 4096 Jan 15 03:39 ..
+-rw-r--r-- 1 root   root   1193 Jan 11 05:27 .classpath
+drwxr-xr-x 8 root   root   4096 Jan 11 05:28 .git
+-rw-r--r-- 1 root   root    541 Jan 11 05:27 .project
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 .settings
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 .svn
+-rw-r--r-- 1 root   root    430 Jan 11 05:27 Jenkinsfile
+-rw-r--r-- 1 root   root     25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root   root    719 Jan 11 05:27 pom.xml
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 sample
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 src
+drwxr-xr-x 4 root   root   4096 Jan 11 05:27 target
+ubuntu@hostname:~/project$ git status
+On branch master
+nothing to commit, working directory clean
+ubuntu@hostname:~/project$ pwd
+/home/ubuntu/project
+ubuntu@hostname:~/project$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-u user] [VAR=value]
+            [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-u user] file ...
+ubuntu@hostname:~/project$ sudo su
+root@hostname:/home/ubuntu/project# pwd
+/home/ubuntu/project
+root@hostname:/home/ubuntu/project# git status
+On branch master
+nothing to commit, working directory clean
+root@hostname:/home/ubuntu/project# git pull https://github.com/ganeshhp/helloworldweb.git
+From https://github.com/ganeshhp/helloworldweb
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
+root@hostname:/home/ubuntu/project# git status
+On branch master
+nothing to commit, working directory clean
+root@hostname:/home/ubuntu/project# ls -la
+total 52
+drwxr-xr-x 8 root   root   4096 Jan 11 05:27 .
+drwxr-xr-x 6 ubuntu ubuntu 4096 Jan 15 03:39 ..
+-rw-r--r-- 1 root   root   1193 Jan 11 05:27 .classpath
+drwxr-xr-x 8 root   root   4096 Jan 15 03:52 .git
+-rw-r--r-- 1 root   root    541 Jan 11 05:27 .project
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 .settings
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 .svn
+-rw-r--r-- 1 root   root    430 Jan 11 05:27 Jenkinsfile
+-rw-r--r-- 1 root   root     25 Jan 11 05:27 README.md
+-rw-r--r-- 1 root   root    719 Jan 11 05:27 pom.xml
+drwxr-xr-x 2 root   root   4096 Jan 11 05:27 sample
+drwxr-xr-x 3 root   root   4096 Jan 11 05:27 src
+drwxr-xr-x 4 root   root   4096 Jan 11 05:27 target
+root@hostname:/home/ubuntu/project# vim pom.xml 
+root@hostname:/home/ubuntu/project# 
+root@hostname:/home/ubuntu/project# git log
+commit ada5ba4d0a21e65439f453f6c6f38b16606fa236
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Sun Oct 15 06:43:02 2017 +0000
+
+    Jenkinsfile updated for deployment statement
+
+commit 8359d6ddeac1a5ddedf8200d36190f64141583f7
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Sun Oct 15 06:16:39 2017 +0000
+
+    Jenkinsfile updated for deployment stage
+
+commit a3973fa4d9caf965f9b896b27a0bf528aa5424fd
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Sat Sep 16 14:21:25 2017 +0000
+
+    Jenkinsfile updated for node statement
+
+commit b82f2e4e918454360120c9b6186d626db77ac80e
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Sat Sep 9 15:58:35 2017 +0000
+
+    jenkinsfile updated
+
+commit 034ae15f51917c90b5a6926a8afcd51c1c9e1d1d
+Merge: c1e7c85 5bbbd52
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Mon Sep 4 19:13:05 2017 +0000
+
+    conflict resolved by updated .jsp file
+
+commit 5bbbd523bd0f36f89f41a78d911a5162c0381b4c
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Mon Sep 4 19:11:14 2017 +0000
+
+    form fields updated
+
+commit c1e7c8547982df598da38cd4a7d9f3309f617e98
+Merge: 92d0857 ba001b7
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Mon Sep 4 19:08:37 2017 +0000
+
+    resolved conflicting text manually
+
+commit 92d0857fb29e5bbf53d8c0d29816b3d776be95b1
+Author: ganesh <ganesh.palnitkar@yahoo.co.in>
+Date:   Mon Sep 4 18:59:05 2017 +0000
+root@hostname:/home/ubuntu/project# 
+root@hostname:/home/ubuntu/project# 
+root@hostname:/home/ubuntu/project# 
+root@hostname:/home/ubuntu/project# vim pom.xml 
+root@hostname:/home/ubuntu/project# vim pom.xml 
+root@hostname:/home/ubuntu/project# git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   pom.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@hostname:/home/ubuntu/project# git add pom.xml 
+root@hostname:/home/ubuntu/project# git commit -m "modified pom.xml by jk"
+[master 7531748] modified pom.xml by jk
+ Committer: root <root@hostname>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+root@hostname:/home/ubuntu/project# git config --global user.email jayantkapse@gmail.com
+root@hostname:/home/ubuntu/project# git commit -m "modified pom.xml by jk"
+On branch master
+nothing to commit, working directory clean
+root@hostname:/home/ubuntu/project# git config --global --edit
+root@hostname:/home/ubuntu/project# git config --global user.name Jayant Kapse
+root@hostname:/home/ubuntu/project# git commit -m "modified pom.xml by jk"
+On branch master
+nothing to commit, working directory clean
+root@hostname:/home/ubuntu/project# git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+root@hostname:/home/ubuntu/project# ls
+Jenkinsfile  README.md  pom.xml  sample  src  target
+root@hostname:/home/ubuntu/project# vim pom.xml 
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.autofact</groupId>
+  <artifactId>Helloworldwebapp</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Helloworldwebapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.4</version>
+    <scope>test</scope>
+</dependency>
+  </dependencies>
+  <build>
+    <finalName>Helloworldwebapp-modjk</finalName>
+  </build>
+</project>
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+"pom.xml" 21L, 725C                                                                          1,1           All
