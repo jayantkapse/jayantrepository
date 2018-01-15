@@ -16,6 +16,6 @@
 </dependency>
   </dependencies>
   <build>
-    <finalName>Helloworldwebapp</finalName>
+    <finalName>Helloworldwebapp-modjk</finalName>
   </build>
 </project>
